@@ -1,0 +1,11 @@
+https://coderwall.com/p/jsd5mw/raspberry-pi-garage-door-opener-with-garagepi
+Webiopi - http://webiopi.trouch.com/
+GaragePi - https://github.com/chasechou/GaragePi
+WebIOPi-0.7.1 Patch for Raspberry B+, Pi2, and Pi3 - https://github.com/doublebind/raspi
+
+Command Line:
+sudo ifconfig - Show IP address
+sudo reboot
+sudo nano /etc/dhcpcd.conf - Set static IP
+sudo update-rc.d webiopi defaults - Set webiopi to start by default
+sudo webiopi -d -c /home/pi/GaragePi/config - Start Garage Pi
